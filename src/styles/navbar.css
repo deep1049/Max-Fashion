@@ -1,0 +1,149 @@
+.extra-options {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-options .left {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 10%;
+}
+
+.extra-options .right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+/* .extra-options .left .item, */
+.extra-options .right .item {
+  margin: 15px 25px;
+}
+
+.navbar {
+  /* background-color: #f7f8f7; */
+  display: flex;
+  border: 1px solid black;
+  /* padding: 5px 50px 20px 50px; */
+  padding-left: 70px;
+  padding-right: 70px;
+
+  height: 80px;
+  /* justify-content: space-between; */
+}
+.navbar .brand-name {
+  font-size: 40px;
+  margin-top: 14px;
+}
+.navbar .sections .item {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  width: 50%;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.navbar .sections {
+  display: flex;
+  /* margin-top: 10px; */
+}
+.navbar .search {
+  width: 30%;
+  /* border: 1px solid blue; */
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.navbar .search .inputTab {
+  border: 0px;
+  width: 100%;
+  height: 70%;
+  padding-left: 5px;
+  background-color: #ecedeb;
+}
+.navbar .options {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  width: 40%;
+  justify-content: space-evenly;
+  margin-top: 27px;
+}
+.navbar .options .item {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.banner {
+  /* background-color: #303ab2; */
+  height: 40px;
+  color: #ffffff;
+  background-color: rgb(48, 58, 178);
+  border: 1px solid black;
+  padding-left: 35%;
+  padding-top: 8px;
+}
+
+/*  */
+.header {
+  /* background-color: #ff000090; */
+  position: relative;
+}
+.main {
+  background-color: #00ff0090;
+  padding: 3rem;
+}
+.footer {
+  background-color: white;
+  padding: 3rem;
+}
+/*  */
+.navbar .sections .item {
+  margin: 2rem;
+}
+.navbar .sections .item label {
+  cursor: pointer;
+  /* background-color: aquamarine; */
+}
+.hover-content {
+  position: absolute;
+  bottom: -250px;
+  width: 100%;
+  background-color: #fff;
+  height: 250px;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.brand-name strong {
+  color: blue;
+}
+
+.brand-name strong:last-child {
+  color: red;
+}
+
+/*  */
+.men-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.men-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.men-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.men-navbar .section .item {
+  margin-top: 5px;
+}
+/*  */
