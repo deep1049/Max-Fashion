@@ -34,15 +34,15 @@ const Header = () => {
       <div className="extra-options">
         <div className="left">
           <div className="item">
-            {/* <FontAwesomeIcon icon="fa-regular fa-truck" /> */}
+            <i className="fa-solid fa-truck"></i>
             <span>Free Shipping</span>
           </div>
           <div className="item">
-            Store
+            <i class="fa-light fa-shop"></i>
             <span>Return to Store</span>
           </div>
           <div className="item">
-            Card
+            <i class="fa-sharp fa-solid fa-gift-card"></i>
             <span>Online Gift Card</span>
           </div>
         </div>

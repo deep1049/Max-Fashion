@@ -36,10 +36,6 @@
   height: 80px;
   /* justify-content: space-between; */
 }
-.navbar .brand-name {
-  font-size: 40px;
-  margin-top: 14px;
-}
 .navbar .sections .item {
   display: flex;
   justify-content: flex-end;
@@ -112,7 +108,7 @@
 }
 .hover-content {
   position: absolute;
-  bottom: -250px;
+  bottom: -210px;
   width: 100%;
   background-color: #fff;
   height: 250px;
@@ -147,3 +143,56 @@
   margin-top: 5px;
 }
 /*  */
+.women-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.women-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.women-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.women-navbar .section .item {
+  margin-top: 5px;
+}
+/*  */
+.boys-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.boys-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.women-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.boys-navbar .section .item {
+  margin-top: 5px;
+}
+/*  */
+.girls-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.girls-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.girls-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.girls-navbar .section .item {
+  margin-top: 5px;
+}

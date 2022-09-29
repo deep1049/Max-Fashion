@@ -5,7 +5,11 @@ const Women = () => {
     <div>
       <Header />
 
-      <div className="main">Main Women Section</div>
+      <div className="main">
+        Main Women Section
+        {/* <img src="../images/slide-1.png" />
+        <img src="../images/image1.png" /> */}
+      </div>
 
       <Footer />
     </div>

@@ -1,0 +1,127 @@
+.footer {
+  width: 100%;
+  height: 1600px;
+  padding-left: 10px;
+  padding-right: 100px;
+  border: 3px solid blue;
+}
+
+.footer .footerbox1 {
+  border: 1px solid black;
+  padding-left: 100px;
+  width: 100%;
+  height: 400px;
+}
+.footer .footerbox2 {
+  margin-top: 20px;
+  border: 1px solid blue;
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+.footer .footerbox2 > div {
+  width: 50%;
+  border: 1px solid green;
+  padding-left: 100px;
+  height: 250px;
+}
+.footer .footerbox2 > div > h2 {
+  margin: 20px 0px 10px 0px;
+}
+.footer .footerbox2 > div > p {
+  margin: 0px 0px 20px 0px;
+  color: grey;
+}
+.footer .footerbox2 > div:first-child > input {
+  width: 60%;
+  height: 50px;
+}
+.footer .footerbox2 > div:first-child > span > button {
+  margin-top: 20px;
+  width: 25%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font: 50px;
+}
+.footer .footerbox3 {
+  border: 1px solid magenta;
+  margin-top: 10px;
+  width: 100% 50%;
+  height: 650px;
+}
+.footer .footerbox3 > div {
+  width: 100%;
+  height: 50%;
+  border: 1px solid brown;
+}
+.footer .footerbox3 .Row1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.footer .footerbox3 .Row1 .session {
+  padding: 20px;
+  cursor: pointer;
+}
+.footer .footerbox3 .Row1 .session .item {
+  color: grey;
+}
+.footer .footerbox3 .Row2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  padding-right: 59%;
+}
+.footer .footerbox3 .Row2 .session {
+  padding: 20px;
+  cursor: pointer;
+}
+.footer .footerbox3 .Row2 .session .item {
+  color: grey;
+}
+.footer .footerbox4 {
+  width: 100%;
+  height: 130px;
+  border: 1px solid mediumpurple;
+  display: flex;
+  padding-left: 70px;
+  margin-top: 10px;
+}
+.footer .footerbox4 > div:first-child {
+  width: 60%;
+  border: 1px solid purple;
+}
+.footer .footerbox4 > div:last-child {
+  width: 40%;
+  border: 1px solid purple;
+}
+.footer .footerbox4 .left {
+  display: flex;
+}
+.footer .footerbox4 .left > div {
+  width: 33%;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.footer .footerbox4 .left > div > p {
+  color: grey;
+}
+.footer .footerbox4 .rigth {
+  padding-top: 20px;
+  padding-left: 70px;
+}
+.footer .footerbox4 .rigth > i {
+  gap: 10px;
+}
+.footer .footerbox5 {
+  display: flex;
+  width: 30%;
+  padding-left: 70px;
+  margin-top: 10px;
+}
+.footer .footerbox5 > div:first-child {
+  margin-right: 20px;
+}
