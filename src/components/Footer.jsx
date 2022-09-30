@@ -1,4 +1,8 @@
 import { BsFillQuestionSquareFill } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BiMessageCheck } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -110,16 +114,20 @@ const Footer = () => {
           </div>
           <div className="contact">
             <span>
-              <i className="fa-solid fa-message-dots"></i>
+              <BiMessageCheck className="size-16" />
+              {/* <i className="fa-solid fa-message-dots"></i> */}
             </span>
             <p>write to us</p>
             <h4>help.in@maxfashion.com</h4>
           </div>
         </div>
         <div className="rigth">
-          <i className="fa-brands fa-facebook-f"></i>
-          <i className="fa-brands fa-twitter"></i>
-          <i className="fa-brands fa-instagram"></i>
+          {/* <i className="fa-brands fa-facebook-f"></i> */}
+          <BsFacebook className="size-25" />
+          {/* <i className="fa-brands fa-twitter"></i> */}
+          <BsTwitter className="size-25" />
+          {/* <i className="fa-brands fa-instagram"></i> */}
+          <BsInstagram className="size-25" />
         </div>
       </div>
       <div className="footerbox5">

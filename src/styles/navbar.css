@@ -90,10 +90,7 @@
   /* background-color: #ff000090; */
   position: relative;
 }
-.main {
-  background-color: #00ff0090;
-  padding: 3rem;
-}
+
 .footer {
   background-color: white;
   padding: 3rem;
@@ -195,4 +192,271 @@
 }
 .girls-navbar .section .item {
   margin-top: 5px;
+}
+.main {
+  background-color: white;
+  /* padding-left: 10%;
+  padding-right: 15%; */
+  border: 3px solid brown;
+  /* height: 3000px; */
+  width: 100%;
+}
+.main .box1 {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 85%;
+}
+.main .box1 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.main .box1 > img {
+  width: 100%;
+}
+.main .box2 {
+  margin: auto;
+  border: 1px solid black;
+  width: 85%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main .box2 > img {
+  width: 100%;
+}
+.main .box3 {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+
+  width: 85%;
+}
+.main .box3 > img {
+  width: 100%;
+}
+.main .box4 {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid grey;
+  height: 700px;
+  width: 85%;
+}
+.main .box4 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.main .box4 > div {
+  border: 1px solid blue;
+  width: 100%;
+  height: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box4 > div > div {
+  width: 15%;
+  height: 100%;
+  border: 1px solid green;
+}
+.main .box4 > div > div > img {
+  width: 100%;
+  height: 80%;
+}
+.main .box4 > div > div > p {
+  margin-left: 30px;
+  font-weight: 300;
+}
+.main .box5 {
+  border-bottom: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box5 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box5 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box5 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box6 {
+  border-bottom: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box6 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box6 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box6 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box7 {
+  border-bottom: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 350px;
+  width: 85%;
+}
+.main .box7 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box7 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box7 > div > img {
+  width: 30%;
+  height: 90%;
+}
+
+.main .box8 {
+  border-bottom: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 600px;
+  width: 85%;
+}
+.main .box8 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box8 > div > img {
+  width: 100%;
+  height: 90%;
+}
+.main .box9 {
+  border-bottom: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box9 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box9 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box9 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box10 {
+  border-bottom: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box10 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box10 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box10 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box11 {
+  border-bottom: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 200px;
+  width: 85%;
+}
+.main .box11 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box11 > div > img {
+  width: 100%;
+  height: 90%;
+}
+.main .box4men {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid grey;
+  height: 350px;
+  width: 85%;
+}
+.main .box4men > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.main .box4men > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box4men > div > div {
+  width: 15%;
+  height: 100%;
+}
+.main .box4men > div > div > img {
+  width: 100%;
+  height: 60%;
+}
+.main .box4men > div > div > p {
+  margin-left: 30px;
+  font-weight: 300;
 }

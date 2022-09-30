@@ -89,11 +89,11 @@
   margin-top: 10px;
 }
 .footer .footerbox4 > div:first-child {
-  width: 60%;
+  width: 70%;
   border: 1px solid purple;
 }
 .footer .footerbox4 > div:last-child {
-  width: 40%;
+  width: 30%;
   border: 1px solid purple;
 }
 .footer .footerbox4 .left {
@@ -113,8 +113,12 @@
   padding-top: 20px;
   padding-left: 70px;
 }
-.footer .footerbox4 .rigth > i {
-  gap: 10px;
+.footer .footerbox4 .rigth {
+  gap: 20px;
+  padding-left: 15%;
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
 }
 .footer .footerbox5 {
   display: flex;
@@ -124,4 +128,10 @@
 }
 .footer .footerbox5 > div:first-child {
   margin-right: 20px;
+}
+.size-25 {
+  margin-left: 15px;
+}
+.footer .footerbox5 .brand-name {
+  margin-bottom: 20px;
 }
