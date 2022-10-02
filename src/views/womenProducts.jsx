@@ -1,19 +1,11 @@
-// import Footer from "../components/Footer";
-// import Header from "../components/Header";
-// const MenProducts = () => {
-//   return <div>
-//     Men Products Page hello</div>;
-// };
-
-// export default MenProducts;
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { MEN_DATA } from "../utility/mendata";
-const MenProduct = () => {
+import { WOMAN_DATA } from "../utility/womendata";
+const WomenProduct = () => {
   const navigateTo = useNavigate();
-  const [data, setData] = useState([...MEN_DATA]);
+  const [data, setData] = useState([...WOMAN_DATA]);
   const [cartlength, setCartLength] = useState(0);
 
   const goto = (path) => {
@@ -66,4 +58,4 @@ const MenProduct = () => {
     </div>
   );
 };
-export default MenProduct;
+export default WomenProduct;

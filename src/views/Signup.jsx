@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+const Signup = () => {
   const [formData, setFormData] = useState({
+    name: "",
     email: "",
     password: "",
+    confirm_password: "",
   });
   const navigateTo = useNavigate();
   const HandleChange = (evt) => {
@@ -17,14 +19,25 @@ const Login = () => {
   const HandleSubmit = (e) => {
     e.preventDefault();
     console.log("form data", formData);
-    localStorage.setItem("user", formData.email);
-    alert(`Welcome`);
-    navigateTo("/");
+    if (formData.password !== formData.confirm_password) {
+      alert(`Password and Confirm Password don't match!`);
+      return;
+    }
+    alert(`Signup Successful! Please login to continue.`);
+    navigateTo("/login");
   };
   return (
-    <div className="login">
-      <h1>Sign In</h1>
+    <div className="signup">
+      <h1>Sign Up</h1>
       <form onSubmit={HandleSubmit}>
+        <input
+          name="name"
+          type="text"
+          placeholder="Name"
+          value={formData.name}
+          onChange={HandleChange}
+          required
+        />
         <input
           name="email"
           type="email"
@@ -41,11 +54,19 @@ const Login = () => {
           onChange={HandleChange}
           required
         />
-        <button type="submit">Sign In</button>
-        <a href="/signup">Sign Up</a>
+        <input
+          name="confirm_password"
+          type="password"
+          placeholder="Confirm Password"
+          value={formData.confirm_password}
+          onChange={HandleChange}
+          required
+        />
+        <button type="submit">Sign Up</button>
+        <a href="/login">Sign In</a>
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Signup;

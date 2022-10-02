@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+}
+.product-count {
+  margin: 20px 80px;
+}
+.bagh1 {
+  border-bottom: 1px solid grey;
+  width: 90%;
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: auto;
+}
+.bag {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.bag-contents {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bag-contents .bag-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-right: 10px;
+}
+.bag-contents .bag-item:hover {
+  box-shadow: 2px 2px 10px #ccc;
+}
+.bag-contents .bag-item img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+.bag-contents .bag-item svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+.delivery-details {
+  width: 35%;
+  margin: 20px;
+}
+.delivery-details .price-breakdown {
+  display: flex;
+  flex-direction: column;
+}
+.delivery-details .price-breakdown label {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5px;
+}
+/* .buttons button {
+  display: flex;
+} */
+.delivery-details button {
+  cursor: pointer;
+  background-color: rgb(48, 58, 178);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-flex;
+
+  justify-content: start;
+  width: 45%;
+  margin-left: 20px;
+  padding: 15px;
+  border: none;
+}
+.delivery-details input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 75%;
+  font-size: 16px;
+}
+.delivery-details input:focus {
+  outline: none;
+}

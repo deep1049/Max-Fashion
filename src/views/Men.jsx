@@ -12,18 +12,19 @@ const Men = () => {
   return (
     <div>
       <Header />
-      <div
-        style={{ cursor: "pointer" }}
-        onClick={() => GoTo("/men/men-products")}
-        className="main"
-      >
+      <div className="main">
         {/* Men
         <div
-       
+          style={{ cursor: "pointer" }}
+          onClick={() => GoTo("/men/men-products")}
         >
           Get men Products
         </div> */}
-        <div className="box1">
+        <div
+          className="box1"
+          style={{ cursor: "pointer" }}
+          onClick={() => GoTo("/men-product")}
+        >
           <img src="../images/men/men.png" />
         </div>
         <div className="box2">
@@ -32,7 +33,11 @@ const Men = () => {
         <div className="box3">
           <img src="../images/women/fashion.png" />
         </div>
-        <div className="box4men">
+        <div
+          className="box4men"
+          style={{ cursor: "pointer" }}
+          onClick={() => GoTo("/men-product")}
+        >
           <h1 className="hh">Shop By Category</h1>
 
           <div className="lower">
@@ -62,11 +67,19 @@ const Men = () => {
             </div>
           </div>
         </div>
-        <div className="box1">
+        <div
+          className="box1"
+          style={{ cursor: "pointer" }}
+          onClick={() => GoTo("/men-product")}
+        >
           <h1>Top Stories</h1>
           <img src="../images/men/men8.jpg" />
         </div>
-        <div className="box5">
+        <div
+          className="box5"
+          style={{ cursor: "pointer" }}
+          onClick={() => GoTo("/men-product")}
+        >
           <h1>New In</h1>
           <div>
             <img src="../images/men/new1.png" />

@@ -3,25 +3,25 @@
   height: 1600px;
   padding-left: 10px;
   padding-right: 100px;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
 }
 
 .footer .footerbox1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding-left: 100px;
   width: 100%;
   height: 400px;
 }
 .footer .footerbox2 {
   margin-top: 20px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 100%;
   height: 250px;
   display: flex;
 }
 .footer .footerbox2 > div {
   width: 50%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding-left: 100px;
   height: 250px;
 }
@@ -45,7 +45,7 @@
   font: 50px;
 }
 .footer .footerbox3 {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   margin-top: 10px;
   width: 100% 50%;
   height: 650px;
@@ -53,7 +53,7 @@
 .footer .footerbox3 > div {
   width: 100%;
   height: 50%;
-  border: 1px solid brown;
+  /* border: 1px solid brown; */
 }
 .footer .footerbox3 .Row1 {
   display: flex;
@@ -83,25 +83,25 @@
 .footer .footerbox4 {
   width: 100%;
   height: 130px;
-  border: 1px solid mediumpurple;
+  /* border: 1px solid mediumpurple; */
   display: flex;
   padding-left: 70px;
   margin-top: 10px;
 }
 .footer .footerbox4 > div:first-child {
   width: 70%;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 .footer .footerbox4 > div:last-child {
   width: 30%;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 .footer .footerbox4 .left {
   display: flex;
 }
 .footer .footerbox4 .left > div {
   width: 33%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   justify-content: space-between;
   padding-left: 50px;
   padding-top: 20px;

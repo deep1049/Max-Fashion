@@ -1,21 +1,40 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { useNavigate } from "react-router-dom";
 const Women = () => {
+  const navigateTo = useNavigate();
+  const goto = (path) => {
+    navigateTo(path);
+  };
   return (
     <div>
       <Header />
 
+      {/* onClick={() => GoTo("/men/men-products")} */}
+
       <div className="main">
-        <div className="box1">
+        <div
+          className="box1"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <img src="../images/women/image3.png" />
         </div>
-        <div className="box2">
+        <div
+          className="box2"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <img src="../images/women/truckrunning.gif" />
         </div>
         <div className="box3">
           <img src="../images/women/fashion.png" />
         </div>
-        <div className="box4">
+        <div
+          className="box4"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <h1 className="hh">Shop By Category</h1>
           <div className="upper">
             <div className="image">
@@ -70,21 +89,33 @@ const Women = () => {
             </div>
           </div>
         </div>
-        <div className="box5">
+        <div
+          className="box5"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <h1>New In</h1>
           <div>
             <img src="../images/women/newin1.png" />
             <img src="../images/women/newin2.png" />
           </div>
         </div>
-        <div className="box6">
+        <div
+          className="box6"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <h1>Shop By Festivity</h1>
           <div>
             <img src="../images/women/shopby1.png" />
             <img src="../images/women/shopby2.png" />
           </div>
         </div>
-        <div className="box7">
+        <div
+          className="box7"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <h1>Budget Zone</h1>
           <div>
             <img src="../images/women/budget1.png" />
@@ -92,27 +123,43 @@ const Women = () => {
             <img src="../images/women/budget3.png" />
           </div>
         </div>
-        <div className="box8">
+        <div
+          className="box8"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <h1>Youth Store</h1>
           <div>
             <img src="../images/women/youth.png" />
           </div>
         </div>
-        <div className="box9">
+        <div
+          className="box9"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <h1>Hot Trends</h1>
           <div>
             <img src="../images/women/hottrend1.png" />
             <img src="../images/women/hottrend2.png" />
           </div>
         </div>
-        <div className="box10">
+        <div
+          className="box10"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <h1>Top Stories</h1>
           <div>
             <img src="../images/women/topstories1.png" />
             <img src="../images/women/topstories2.png" />
           </div>
         </div>
-        <div className="box11">
+        <div
+          className="box11"
+          style={{ cursor: "pointer" }}
+          onClick={() => goto("/women-product")}
+        >
           <div>
             <img src="../images/women/viewall.png" />
           </div>

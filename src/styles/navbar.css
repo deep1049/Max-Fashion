@@ -13,6 +13,10 @@
   margin-top: 15px;
   margin-left: 10%;
 }
+.extra-options .left span {
+  margin-left: 5px;
+  margin-right: 11px;
+}
 
 .extra-options .right {
   display: flex;
@@ -22,13 +26,14 @@
 
 /* .extra-options .left .item, */
 .extra-options .right .item {
-  margin: 15px 25px;
+  margin: 15px 10px;
+  margin-right: 40px;
 }
 
 .navbar {
   /* background-color: #f7f8f7; */
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* padding: 5px 50px 20px 50px; */
   padding-left: 70px;
   padding-right: 70px;
@@ -80,7 +85,7 @@
   height: 40px;
   color: #ffffff;
   background-color: rgb(48, 58, 178);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding-left: 35%;
   padding-top: 8px;
 }
@@ -99,18 +104,55 @@
 .navbar .sections .item {
   margin: 2rem;
 }
+.navbar .bag-item {
+  position: relative;
+}
+.navbar .bag-item span {
+  font-weight: 600;
+  font-size: 14px;
+  background-color: rgb(48, 58, 178);
+  color: white;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -15px;
+}
+.navbar .bag-item svg {
+  font-size: 22px;
+}
 .navbar .sections .item label {
   cursor: pointer;
   /* background-color: aquamarine; */
 }
 .hover-content {
   position: absolute;
-  bottom: -210px;
+  bottom: -230px;
   width: 100%;
   background-color: #fff;
-  height: 250px;
-  border: 2px solid red;
+  height: 270px;
+  /* border: 2px solid red; */
   cursor: pointer;
+  z-index: 9999;
+}
+
+.hover-content.nav-women-content {
+  bottom: -410px;
+  height: 450px;
+}
+
+.hover-content.nav-girls-content {
+  bottom: -320px;
+  height: 370px;
+}
+
+.hover-content.nav-boys-content {
+  bottom: -310px;
+  height: 350px;
 }
 
 .brand-name strong {
@@ -193,11 +235,12 @@
 .girls-navbar .section .item {
   margin-top: 5px;
 }
+/* landing page css */
 .main {
   background-color: white;
   /* padding-left: 10%;
   padding-right: 15%; */
-  border: 3px solid brown;
+  /* border: 3px solid brown; */
   /* height: 3000px; */
   width: 100%;
 }
@@ -217,7 +260,7 @@
 }
 .main .box2 {
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 85%;
 
   margin-top: 30px;
@@ -230,7 +273,7 @@
   margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   width: 85%;
 }
@@ -241,7 +284,7 @@
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   height: 700px;
   width: 85%;
 }
@@ -251,7 +294,7 @@
   margin-bottom: 15px;
 }
 .main .box4 > div {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 100%;
   height: 42%;
   display: flex;
@@ -260,7 +303,7 @@
 .main .box4 > div > div {
   width: 15%;
   height: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .main .box4 > div > div > img {
   width: 100%;
@@ -271,7 +314,7 @@
   font-weight: 300;
 }
 .main .box5 {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -295,7 +338,7 @@
   height: 90%;
 }
 .main .box6 {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -319,7 +362,7 @@
   height: 90%;
 }
 .main .box7 {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -344,7 +387,7 @@
 }
 
 .main .box8 {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -363,7 +406,7 @@
   height: 90%;
 }
 .main .box9 {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -387,7 +430,7 @@
   height: 90%;
 }
 .main .box10 {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -411,7 +454,7 @@
   height: 90%;
 }
 .main .box11 {
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -433,7 +476,7 @@
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   height: 350px;
   width: 85%;
 }
