@@ -1,0 +1,505 @@
+.extra-options {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-options .left {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 10%;
+}
+.extra-options .left span {
+  margin-left: 5px;
+  margin-right: 11px;
+}
+
+.extra-options .right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+/* .extra-options .left .item, */
+.extra-options .right .item {
+  margin: 15px 10px;
+  margin-right: 40px;
+}
+
+.navbar {
+  /* background-color: #f7f8f7; */
+  display: flex;
+  /* border: 1px solid black; */
+  /* padding: 5px 50px 20px 50px; */
+  padding-left: 70px;
+  padding-right: 70px;
+
+  height: 80px;
+  /* justify-content: space-between; */
+}
+.navbar .sections .item {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  width: 50%;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.navbar .sections {
+  display: flex;
+  /* margin-top: 10px; */
+}
+.navbar .search {
+  width: 30%;
+  /* border: 1px solid blue; */
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.navbar .search .inputTab {
+  border: 0px;
+  width: 100%;
+  height: 70%;
+  padding-left: 5px;
+  background-color: #ecedeb;
+}
+.navbar .options {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  width: 40%;
+  justify-content: space-evenly;
+  margin-top: 27px;
+}
+.navbar .options .item {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.banner {
+  /* background-color: #303ab2; */
+  height: 40px;
+  color: #ffffff;
+  background-color: rgb(48, 58, 178);
+  /* border: 1px solid black; */
+  padding-left: 35%;
+  padding-top: 8px;
+}
+
+/*  */
+.header {
+  /* background-color: #ff000090; */
+  position: relative;
+}
+
+.footer {
+  background-color: white;
+  padding: 3rem;
+}
+/*  */
+.navbar .sections .item {
+  margin: 2rem;
+}
+.navbar .bag-item {
+  position: relative;
+}
+.navbar .bag-item span {
+  font-weight: 600;
+  font-size: 14px;
+  background-color: rgb(48, 58, 178);
+  color: white;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -15px;
+}
+.navbar .bag-item svg {
+  font-size: 22px;
+}
+.navbar .sections .item label {
+  cursor: pointer;
+  /* background-color: aquamarine; */
+}
+.hover-content {
+  position: absolute;
+  bottom: -230px;
+  width: 100%;
+  background-color: #fff;
+  height: 270px;
+  /* border: 2px solid red; */
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.hover-content.nav-women-content {
+  bottom: -410px;
+  height: 450px;
+}
+
+.hover-content.nav-girls-content {
+  bottom: -320px;
+  height: 370px;
+}
+
+.hover-content.nav-boys-content {
+  bottom: -310px;
+  height: 350px;
+}
+
+.brand-name strong {
+  color: blue;
+}
+
+.brand-name strong:last-child {
+  color: red;
+}
+
+/*  */
+.men-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.men-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.men-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.men-navbar .section .item {
+  margin-top: 5px;
+}
+/*  */
+.women-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.women-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.women-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.women-navbar .section .item {
+  margin-top: 5px;
+}
+/*  */
+.boys-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.boys-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.women-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.boys-navbar .section .item {
+  margin-top: 5px;
+}
+/*  */
+.girls-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.girls-navbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.girls-navbar .section {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.girls-navbar .section .item {
+  margin-top: 5px;
+}
+/* landing page css */
+.main {
+  background-color: white;
+  /* padding-left: 10%;
+  padding-right: 15%; */
+  /* border: 3px solid brown; */
+  /* height: 3000px; */
+  width: 100%;
+}
+.main .box1 {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 85%;
+}
+.main .box1 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.main .box1 > img {
+  width: 100%;
+}
+.main .box2 {
+  margin: auto;
+  /* border: 1px solid black; */
+  width: 85%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main .box2 > img {
+  width: 100%;
+}
+.main .box3 {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* border: 1px solid black; */
+
+  width: 85%;
+}
+.main .box3 > img {
+  width: 100%;
+}
+.main .box4 {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  /* border-bottom: 1px solid grey; */
+  height: 700px;
+  width: 85%;
+}
+.main .box4 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.main .box4 > div {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box4 > div > div {
+  width: 15%;
+  height: 100%;
+  /* border: 1px solid green; */
+}
+.main .box4 > div > div > img {
+  width: 100%;
+  height: 80%;
+}
+.main .box4 > div > div > p {
+  margin-left: 30px;
+  font-weight: 300;
+}
+.main .box5 {
+  /* border-bottom: 1px solid grey; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box5 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box5 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box5 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box6 {
+  /* border-bottom: 1px solid grey; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box6 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box6 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box6 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box7 {
+  /* border-bottom: 1px solid grey; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 350px;
+  width: 85%;
+}
+.main .box7 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box7 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box7 > div > img {
+  width: 30%;
+  height: 90%;
+}
+
+.main .box8 {
+  /* border-bottom: 1px solid grey; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 600px;
+  width: 85%;
+}
+.main .box8 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box8 > div > img {
+  width: 100%;
+  height: 90%;
+}
+.main .box9 {
+  /* border-bottom: 1px solid grey; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box9 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box9 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box9 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box10 {
+  /* border-bottom: 1px solid grey; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 750px;
+  width: 85%;
+}
+.main .box10 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box10 > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box10 > div > img {
+  width: 49%;
+  height: 90%;
+}
+.main .box11 {
+  /* border-bottom: 1px solid grey; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  height: 200px;
+  width: 85%;
+}
+.main .box11 > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main .box11 > div > img {
+  width: 100%;
+  height: 90%;
+}
+.main .box4men {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  /* border-bottom: 1px solid grey; */
+  height: 350px;
+  width: 85%;
+}
+.main .box4men > h1 {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.main .box4men > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box4men > div > div {
+  width: 15%;
+  height: 100%;
+}
+.main .box4men > div > div > img {
+  width: 100%;
+  height: 60%;
+}
+.main .box4men > div > div > p {
+  margin-left: 30px;
+  font-weight: 300;
+}
