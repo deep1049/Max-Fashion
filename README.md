@@ -1,7 +1,7 @@
 # maxfashion app_Clone
 
 
-This project is created by me , This is an e-commerce website that sells cloths products. WI built this cloning project
+This project is created by me , This is an e-commerce website that sells cloths products. I built this cloning project
 Within 5 days and this is my third project during the Masai curriculum 
 https://dainty-tulumba-dc1e5f.netlify.app/
 
@@ -24,21 +24,17 @@ https://dainty-tulumba-dc1e5f.netlify.app/
 - open terminal of your editor
 - use  --> git clone (paste link) <-- 
 - after project cloned to your folder
-- go to index.html inside homenavbar folder
-- open with live server
+-npm start
     
 ## Tech Stack
 
-* Javascript
+* ReactJs
 * HTML
 * CSS
 
 
 
 ## Screenshots
+![max-fashion-app](https://user-images.githubusercontent.com/103635801/205506030-1c2f9926-21e5-4eee-b22c-89a7b0fa1ff6.PNG)
 
-![App Screenshot](https://cdn.shopify.com/s/files/1/1301/1643/files/Weekend_offer-_landing_banner_2.jpg?v=1600581929)
 
-![App Screenshot](https://grocurv.com/media/images/Sugar_Website.width-800.png)
-
-![App Screenshot](https://www.couponmoto.com/storage/store/description/sugar-cosmetics-coupon-code.png)
