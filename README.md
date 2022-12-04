@@ -18,7 +18,7 @@ https://dainty-tulumba-dc1e5f.netlify.app/
 
 ## Installation
 
-- copy this https://github.com/aasimsyed97/SugarCosmetics01.git
+- copy this (https://github.com/deep1049/successful-geese-7917)
 - Select path where you want to store the project in your pc
 - open the corresponding file / folder with editor
 - open terminal of your editor
